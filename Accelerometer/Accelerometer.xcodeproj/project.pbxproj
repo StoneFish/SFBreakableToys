@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B32F61A2163E7DF20074EBA4 /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B32F619D163E7DF20074EBA4 /* AccelerometerFilter.m */; };
+		B32F61A3163E7DF20074EBA4 /* SFShakeIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B32F619F163E7DF20074EBA4 /* SFShakeIndicator.m */; };
+		B32F61A4163E7DF20074EBA4 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32F61A1163E7DF20074EBA4 /* SFViewController.m */; };
 		B369D455163E2F1B00298165 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369D454163E2F1B00298165 /* UIKit.framework */; };
 		B369D457163E2F1B00298165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369D456163E2F1B00298165 /* Foundation.framework */; };
 		B369D459163E2F1B00298165 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369D458163E2F1B00298165 /* CoreGraphics.framework */; };
@@ -21,9 +24,6 @@
 		B369D475163E2F1C00298165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369D456163E2F1B00298165 /* Foundation.framework */; };
 		B369D47D163E2F1C00298165 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B369D47B163E2F1C00298165 /* InfoPlist.strings */; };
 		B369D480163E2F1C00298165 /* AccelerometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B369D47F163E2F1C00298165 /* AccelerometerTests.m */; };
-		B369D48D163E3D4C00298165 /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = B369D48A163E3D4C00298165 /* AccelerometerFilter.m */; };
-		B369D48E163E3D4C00298165 /* SFShakeIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B369D48B163E3D4C00298165 /* SFShakeIndicator.m */; };
-		B369D48F163E3D4C00298165 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B369D48C163E3D4C00298165 /* SFViewController.m */; };
 		B369D494163E3DED00298165 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369D493163E3DED00298165 /* AudioToolbox.framework */; };
 		B369D496163E3E3B00298165 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B369D495163E3E3B00298165 /* AVFoundation.framework */; };
 		B369D49F163E3EFF00298165 /* TTGlobalCore.m in Sources */ = {isa = PBXBuildFile; fileRef = B369D49E163E3EFF00298165 /* TTGlobalCore.m */; };
@@ -43,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B32F619C163E7DF20074EBA4 /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerFilter.h; sourceTree = "<group>"; };
+		B32F619D163E7DF20074EBA4 /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
+		B32F619E163E7DF20074EBA4 /* SFShakeIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFShakeIndicator.h; sourceTree = "<group>"; };
+		B32F619F163E7DF20074EBA4 /* SFShakeIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFShakeIndicator.m; sourceTree = "<group>"; };
+		B32F61A0163E7DF20074EBA4 /* SFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		B32F61A1163E7DF20074EBA4 /* SFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
 		B369D450163E2F1B00298165 /* Accelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B369D454163E2F1B00298165 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B369D456163E2F1B00298165 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,12 +68,6 @@
 		B369D47C163E2F1C00298165 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B369D47E163E2F1C00298165 /* AccelerometerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccelerometerTests.h; sourceTree = "<group>"; };
 		B369D47F163E2F1C00298165 /* AccelerometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelerometerTests.m; sourceTree = "<group>"; };
-		B369D48A163E3D4C00298165 /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
-		B369D48B163E3D4C00298165 /* SFShakeIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFShakeIndicator.m; sourceTree = "<group>"; };
-		B369D48C163E3D4C00298165 /* SFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
-		B369D490163E3D5C00298165 /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccelerometerFilter.h; path = Headers/AccelerometerFilter.h; sourceTree = SOURCE_ROOT; };
-		B369D491163E3D5C00298165 /* SFShakeIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFShakeIndicator.h; path = Headers/SFShakeIndicator.h; sourceTree = SOURCE_ROOT; };
-		B369D492163E3D5C00298165 /* SFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFViewController.h; path = Headers/SFViewController.h; sourceTree = SOURCE_ROOT; };
 		B369D493163E3DED00298165 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B369D495163E3E3B00298165 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B369D49C163E3EFF00298165 /* TTCorePreprocessorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCorePreprocessorMacros.h; sourceTree = "<group>"; };
@@ -104,10 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B32F619B163E7DF20074EBA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B32F619C163E7DF20074EBA4 /* AccelerometerFilter.h */,
+				B32F619D163E7DF20074EBA4 /* AccelerometerFilter.m */,
+				B32F619E163E7DF20074EBA4 /* SFShakeIndicator.h */,
+				B32F619F163E7DF20074EBA4 /* SFShakeIndicator.m */,
+				B32F61A0163E7DF20074EBA4 /* SFViewController.h */,
+				B32F61A1163E7DF20074EBA4 /* SFViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		B369D445163E2F1B00298165 = {
 			isa = PBXGroup;
 			children = (
-				B369D489163E3D4C00298165 /* Sources */,
+				B32F619B163E7DF20074EBA4 /* Classes */,
 				B369D49B163E3EFF00298165 /* Dependencies */,
 				B369D45A163E2F1B00298165 /* Accelerometer */,
 				B369D478163E2F1C00298165 /* AccelerometerTests */,
@@ -182,19 +195,6 @@
 				B369D47B163E2F1C00298165 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B369D489163E3D4C00298165 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				B369D490163E3D5C00298165 /* AccelerometerFilter.h */,
-				B369D48A163E3D4C00298165 /* AccelerometerFilter.m */,
-				B369D491163E3D5C00298165 /* SFShakeIndicator.h */,
-				B369D48B163E3D4C00298165 /* SFShakeIndicator.m */,
-				B369D492163E3D5C00298165 /* SFViewController.h */,
-				B369D48C163E3D4C00298165 /* SFViewController.m */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 		B369D49B163E3EFF00298165 /* Dependencies */ = {
@@ -322,10 +322,10 @@
 			files = (
 				B369D461163E2F1B00298165 /* main.m in Sources */,
 				B369D465163E2F1B00298165 /* SFAppDelegate.m in Sources */,
-				B369D48D163E3D4C00298165 /* AccelerometerFilter.m in Sources */,
-				B369D48E163E3D4C00298165 /* SFShakeIndicator.m in Sources */,
-				B369D48F163E3D4C00298165 /* SFViewController.m in Sources */,
 				B369D49F163E3EFF00298165 /* TTGlobalCore.m in Sources */,
+				B32F61A2163E7DF20074EBA4 /* AccelerometerFilter.m in Sources */,
+				B32F61A3163E7DF20074EBA4 /* SFShakeIndicator.m in Sources */,
+				B32F61A4163E7DF20074EBA4 /* SFViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
