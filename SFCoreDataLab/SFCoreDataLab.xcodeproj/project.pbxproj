@@ -28,6 +28,7 @@
 		B38A8FA71643AE41001A6DC7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38A8F7A1643AE40001A6DC7 /* CoreData.framework */; };
 		B38A8FAF1643AE41001A6DC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B38A8FAD1643AE41001A6DC7 /* InfoPlist.strings */; };
 		B38A8FB21643AE41001A6DC7 /* SFCoreDataLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A8FB11643AE41001A6DC7 /* SFCoreDataLabTests.m */; };
+		B38A8FC71643B929001A6DC7 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A8FC61643B929001A6DC7 /* Entity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		B38A8FAE1643AE41001A6DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B38A8FB01643AE41001A6DC7 /* SFCoreDataLabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFCoreDataLabTests.h; sourceTree = "<group>"; };
 		B38A8FB11643AE41001A6DC7 /* SFCoreDataLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFCoreDataLabTests.m; sourceTree = "<group>"; };
+		B38A8FC51643B929001A6DC7 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = Classes/Entity.h; sourceTree = SOURCE_ROOT; };
+		B38A8FC61643B929001A6DC7 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entity.m; path = Classes/Entity.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 		B38A8F651643AE40001A6DC7 = {
 			isa = PBXGroup;
 			children = (
+				B38A8FC11643B735001A6DC7 /* Classes */,
 				B38A8F7C1643AE40001A6DC7 /* SFCoreDataLab */,
 				B38A8FAA1643AE41001A6DC7 /* SFCoreDataLabTests */,
 				B38A8F731643AE40001A6DC7 /* Frameworks */,
@@ -175,6 +179,15 @@
 				B38A8FAD1643AE41001A6DC7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B38A8FC11643B735001A6DC7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B38A8FC51643B929001A6DC7 /* Entity.h */,
+				B38A8FC61643B929001A6DC7 /* Entity.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +307,7 @@
 				B38A8F901643AE40001A6DC7 /* SFCoreDataLab.xcdatamodeld in Sources */,
 				B38A8F931643AE40001A6DC7 /* SFMasterViewController.m in Sources */,
 				B38A8F961643AE40001A6DC7 /* SFDetailViewController.m in Sources */,
+				B38A8FC71643B929001A6DC7 /* Entity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
