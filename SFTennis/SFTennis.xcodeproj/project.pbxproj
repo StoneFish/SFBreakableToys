@@ -25,6 +25,8 @@
 		B32F618F163E77C50074EBA4 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32F618E163E77C50074EBA4 /* GameKit.framework */; };
 		B32F619A163E7D920074EBA4 /* SFTennisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B32F6199163E7D920074EBA4 /* SFTennisViewController.m */; };
 		B32F61A7163E806C0074EBA4 /* SFTennisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B32F61A6163E806C0074EBA4 /* SFTennisViewController.xib */; };
+		B38A8F6316436A75001A6DC7 /* SFTennisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A8F6216436A75001A6DC7 /* SFTennisModel.m */; };
+		B38A8FC01643B70B001A6DC7 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = B38A8FBF1643B70B001A6DC7 /* Entity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		B32F6198163E7D920074EBA4 /* SFTennisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTennisViewController.h; sourceTree = "<group>"; };
 		B32F6199163E7D920074EBA4 /* SFTennisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTennisViewController.m; sourceTree = "<group>"; };
 		B32F61A6163E806C0074EBA4 /* SFTennisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFTennisViewController.xib; sourceTree = "<group>"; };
+		B38A8F6116436A75001A6DC7 /* SFTennisModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTennisModel.h; sourceTree = "<group>"; };
+		B38A8F6216436A75001A6DC7 /* SFTennisModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTennisModel.m; sourceTree = "<group>"; };
+		B38A8FBE1643B70B001A6DC7 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = ../SFCoreDataLab/Classes/Entity.h; sourceTree = "<group>"; };
+		B38A8FBF1643B70B001A6DC7 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entity.m; path = ../SFCoreDataLab/Classes/Entity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,8 @@
 		B32F614A163E77300074EBA4 = {
 			isa = PBXGroup;
 			children = (
+				B38A8FBE1643B70B001A6DC7 /* Entity.h */,
+				B38A8FBF1643B70B001A6DC7 /* Entity.m */,
 				B32F6197163E7D920074EBA4 /* Classes */,
 				B32F615F163E77300074EBA4 /* SFTennis */,
 				B32F617D163E77310074EBA4 /* SFTennisTests */,
@@ -171,6 +179,8 @@
 			children = (
 				B32F6198163E7D920074EBA4 /* SFTennisViewController.h */,
 				B32F6199163E7D920074EBA4 /* SFTennisViewController.m */,
+				B38A8F6116436A75001A6DC7 /* SFTennisModel.h */,
+				B38A8F6216436A75001A6DC7 /* SFTennisModel.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -290,6 +300,8 @@
 				B32F6166163E77300074EBA4 /* main.m in Sources */,
 				B32F616A163E77300074EBA4 /* SFAppDelegate.m in Sources */,
 				B32F619A163E7D920074EBA4 /* SFTennisViewController.m in Sources */,
+				B38A8F6316436A75001A6DC7 /* SFTennisModel.m in Sources */,
+				B38A8FC01643B70B001A6DC7 /* Entity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

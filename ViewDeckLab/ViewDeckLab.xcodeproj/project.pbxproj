@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3BAA8261647984200C14854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BAA8251647984200C14854 /* UIKit.framework */; };
+		B3BAA8281647984200C14854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BAA8271647984200C14854 /* Foundation.framework */; };
+		B3BAA82A1647984200C14854 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BAA8291647984200C14854 /* CoreGraphics.framework */; };
+		B3BAA8301647984200C14854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA82E1647984200C14854 /* InfoPlist.strings */; };
+		B3BAA8321647984200C14854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA8311647984200C14854 /* main.m */; };
+		B3BAA8361647984200C14854 /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA8351647984200C14854 /* SFAppDelegate.m */; };
+		B3BAA8381647984200C14854 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA8371647984200C14854 /* Default.png */; };
+		B3BAA83A1647984200C14854 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA8391647984200C14854 /* Default@2x.png */; };
+		B3BAA83C1647984200C14854 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA83B1647984200C14854 /* Default-568h@2x.png */; };
+		B3BAA8441647984200C14854 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BAA8431647984200C14854 /* SenTestingKit.framework */; };
+		B3BAA8451647984200C14854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BAA8251647984200C14854 /* UIKit.framework */; };
+		B3BAA8461647984200C14854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BAA8271647984200C14854 /* Foundation.framework */; };
+		B3BAA84E1647984200C14854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3BAA84C1647984200C14854 /* InfoPlist.strings */; };
+		B3BAA8511647984200C14854 /* ViewDeckLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA8501647984200C14854 /* ViewDeckLabTests.m */; };
+		B3BAA860164798F400C14854 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA85D164798F400C14854 /* IIViewDeckController.m */; };
+		B3BAA861164798F400C14854 /* WrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA85F164798F400C14854 /* WrapController.m */; };
+		B3BAA8651647994B00C14854 /* SFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAA8641647994B00C14854 /* SFMainViewController.m */; };
+		B3BAA86716479AE900C14854 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BAA86616479AE900C14854 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3BAA8471647984200C14854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3BAA8181647984200C14854 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3BAA8201647984200C14854;
+			remoteInfo = ViewDeckLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3BAA8211647984200C14854 /* ViewDeckLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewDeckLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BAA8251647984200C14854 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3BAA8271647984200C14854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3BAA8291647984200C14854 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3BAA82D1647984200C14854 /* ViewDeckLab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewDeckLab-Info.plist"; sourceTree = "<group>"; };
+		B3BAA82F1647984200C14854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3BAA8311647984200C14854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3BAA8331647984200C14854 /* ViewDeckLab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewDeckLab-Prefix.pch"; sourceTree = "<group>"; };
+		B3BAA8341647984200C14854 /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		B3BAA8351647984200C14854 /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		B3BAA8371647984200C14854 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B3BAA8391647984200C14854 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B3BAA83B1647984200C14854 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3BAA8421647984200C14854 /* ViewDeckLabTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewDeckLabTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BAA8431647984200C14854 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B3BAA84B1647984200C14854 /* ViewDeckLabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewDeckLabTests-Info.plist"; sourceTree = "<group>"; };
+		B3BAA84D1647984200C14854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3BAA84F1647984200C14854 /* ViewDeckLabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDeckLabTests.h; sourceTree = "<group>"; };
+		B3BAA8501647984200C14854 /* ViewDeckLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDeckLabTests.m; sourceTree = "<group>"; };
+		B3BAA85C164798F400C14854 /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		B3BAA85D164798F400C14854 /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		B3BAA85E164798F400C14854 /* WrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapController.h; sourceTree = "<group>"; };
+		B3BAA85F164798F400C14854 /* WrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrapController.m; sourceTree = "<group>"; };
+		B3BAA8631647994B00C14854 /* SFMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMainViewController.h; sourceTree = "<group>"; };
+		B3BAA8641647994B00C14854 /* SFMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMainViewController.m; sourceTree = "<group>"; };
+		B3BAA86616479AE900C14854 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3BAA81E1647984200C14854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA86716479AE900C14854 /* QuartzCore.framework in Frameworks */,
+				B3BAA8261647984200C14854 /* UIKit.framework in Frameworks */,
+				B3BAA8281647984200C14854 /* Foundation.framework in Frameworks */,
+				B3BAA82A1647984200C14854 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BAA83E1647984200C14854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA8441647984200C14854 /* SenTestingKit.framework in Frameworks */,
+				B3BAA8451647984200C14854 /* UIKit.framework in Frameworks */,
+				B3BAA8461647984200C14854 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3BAA8161647984200C14854 = {
+			isa = PBXGroup;
+			children = (
+				B3BAA86616479AE900C14854 /* QuartzCore.framework */,
+				B3BAA8621647990200C14854 /* Classes */,
+				B3BAA85A164798F400C14854 /* Dependencies */,
+				B3BAA82B1647984200C14854 /* ViewDeckLab */,
+				B3BAA8491647984200C14854 /* ViewDeckLabTests */,
+				B3BAA8241647984200C14854 /* Frameworks */,
+				B3BAA8221647984200C14854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3BAA8221647984200C14854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA8211647984200C14854 /* ViewDeckLab.app */,
+				B3BAA8421647984200C14854 /* ViewDeckLabTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3BAA8241647984200C14854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA8251647984200C14854 /* UIKit.framework */,
+				B3BAA8271647984200C14854 /* Foundation.framework */,
+				B3BAA8291647984200C14854 /* CoreGraphics.framework */,
+				B3BAA8431647984200C14854 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3BAA82B1647984200C14854 /* ViewDeckLab */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA8341647984200C14854 /* SFAppDelegate.h */,
+				B3BAA8351647984200C14854 /* SFAppDelegate.m */,
+				B3BAA82C1647984200C14854 /* Supporting Files */,
+			);
+			path = ViewDeckLab;
+			sourceTree = "<group>";
+		};
+		B3BAA82C1647984200C14854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA82D1647984200C14854 /* ViewDeckLab-Info.plist */,
+				B3BAA82E1647984200C14854 /* InfoPlist.strings */,
+				B3BAA8311647984200C14854 /* main.m */,
+				B3BAA8331647984200C14854 /* ViewDeckLab-Prefix.pch */,
+				B3BAA8371647984200C14854 /* Default.png */,
+				B3BAA8391647984200C14854 /* Default@2x.png */,
+				B3BAA83B1647984200C14854 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3BAA8491647984200C14854 /* ViewDeckLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA84F1647984200C14854 /* ViewDeckLabTests.h */,
+				B3BAA8501647984200C14854 /* ViewDeckLabTests.m */,
+				B3BAA84A1647984200C14854 /* Supporting Files */,
+			);
+			path = ViewDeckLabTests;
+			sourceTree = "<group>";
+		};
+		B3BAA84A1647984200C14854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA84B1647984200C14854 /* ViewDeckLabTests-Info.plist */,
+				B3BAA84C1647984200C14854 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3BAA85A164798F400C14854 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA85B164798F400C14854 /* ViewDeck */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		B3BAA85B164798F400C14854 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA85C164798F400C14854 /* IIViewDeckController.h */,
+				B3BAA85D164798F400C14854 /* IIViewDeckController.m */,
+				B3BAA85E164798F400C14854 /* WrapController.h */,
+				B3BAA85F164798F400C14854 /* WrapController.m */,
+			);
+			path = ViewDeck;
+			sourceTree = "<group>";
+		};
+		B3BAA8621647990200C14854 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3BAA8631647994B00C14854 /* SFMainViewController.h */,
+				B3BAA8641647994B00C14854 /* SFMainViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3BAA8201647984200C14854 /* ViewDeckLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BAA8541647984200C14854 /* Build configuration list for PBXNativeTarget "ViewDeckLab" */;
+			buildPhases = (
+				B3BAA81D1647984200C14854 /* Sources */,
+				B3BAA81E1647984200C14854 /* Frameworks */,
+				B3BAA81F1647984200C14854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewDeckLab;
+			productName = ViewDeckLab;
+			productReference = B3BAA8211647984200C14854 /* ViewDeckLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3BAA8411647984200C14854 /* ViewDeckLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BAA8571647984200C14854 /* Build configuration list for PBXNativeTarget "ViewDeckLabTests" */;
+			buildPhases = (
+				B3BAA83D1647984200C14854 /* Sources */,
+				B3BAA83E1647984200C14854 /* Frameworks */,
+				B3BAA83F1647984200C14854 /* Resources */,
+				B3BAA8401647984200C14854 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3BAA8481647984200C14854 /* PBXTargetDependency */,
+			);
+			name = ViewDeckLabTests;
+			productName = ViewDeckLabTests;
+			productReference = B3BAA8421647984200C14854 /* ViewDeckLabTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3BAA8181647984200C14854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = hand;
+			};
+			buildConfigurationList = B3BAA81B1647984200C14854 /* Build configuration list for PBXProject "ViewDeckLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3BAA8161647984200C14854;
+			productRefGroup = B3BAA8221647984200C14854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3BAA8201647984200C14854 /* ViewDeckLab */,
+				B3BAA8411647984200C14854 /* ViewDeckLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3BAA81F1647984200C14854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA8301647984200C14854 /* InfoPlist.strings in Resources */,
+				B3BAA8381647984200C14854 /* Default.png in Resources */,
+				B3BAA83A1647984200C14854 /* Default@2x.png in Resources */,
+				B3BAA83C1647984200C14854 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BAA83F1647984200C14854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA84E1647984200C14854 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3BAA8401647984200C14854 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3BAA81D1647984200C14854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA8321647984200C14854 /* main.m in Sources */,
+				B3BAA8361647984200C14854 /* SFAppDelegate.m in Sources */,
+				B3BAA860164798F400C14854 /* IIViewDeckController.m in Sources */,
+				B3BAA861164798F400C14854 /* WrapController.m in Sources */,
+				B3BAA8651647994B00C14854 /* SFMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3BAA83D1647984200C14854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BAA8511647984200C14854 /* ViewDeckLabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3BAA8481647984200C14854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3BAA8201647984200C14854 /* ViewDeckLab */;
+			targetProxy = B3BAA8471647984200C14854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3BAA82E1647984200C14854 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BAA82F1647984200C14854 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3BAA84C1647984200C14854 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BAA84D1647984200C14854 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3BAA8521647984200C14854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3BAA8531647984200C14854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3BAA8551647984200C14854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewDeckLab/ViewDeckLab-Prefix.pch";
+				INFOPLIST_FILE = "ViewDeckLab/ViewDeckLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3BAA8561647984200C14854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewDeckLab/ViewDeckLab-Prefix.pch";
+				INFOPLIST_FILE = "ViewDeckLab/ViewDeckLab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3BAA8581647984200C14854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewDeckLab.app/ViewDeckLab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewDeckLab/ViewDeckLab-Prefix.pch";
+				INFOPLIST_FILE = "ViewDeckLabTests/ViewDeckLabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B3BAA8591647984200C14854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ViewDeckLab.app/ViewDeckLab";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewDeckLab/ViewDeckLab-Prefix.pch";
+				INFOPLIST_FILE = "ViewDeckLabTests/ViewDeckLabTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3BAA81B1647984200C14854 /* Build configuration list for PBXProject "ViewDeckLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BAA8521647984200C14854 /* Debug */,
+				B3BAA8531647984200C14854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BAA8541647984200C14854 /* Build configuration list for PBXNativeTarget "ViewDeckLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BAA8551647984200C14854 /* Debug */,
+				B3BAA8561647984200C14854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3BAA8571647984200C14854 /* Build configuration list for PBXNativeTarget "ViewDeckLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BAA8581647984200C14854 /* Debug */,
+				B3BAA8591647984200C14854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3BAA8181647984200C14854 /* Project object */;
+}
